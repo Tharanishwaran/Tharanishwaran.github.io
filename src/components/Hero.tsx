@@ -19,7 +19,7 @@ export const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden cosmic-bg">
-      {/* Floating geometric shapes */}
+  
       <div className="absolute inset-0 transform-3d">
           <div 
             className="absolute top-1/4 left-1/4 w-20 h-20 bg-primary/10 backdrop-blur-xl rounded-2xl float animate-delay-100 border border-primary/20 shadow-elegant"
@@ -88,8 +88,7 @@ export const Hero = () => {
               Get in Touch
             </Button>
           </div>
-          
-          {/* Tech stack indicators */}
+
           <div className="flex justify-center items-center gap-6 mt-12 animate-slide-up animate-delay-300">
             <div className="bg-card/90 backdrop-blur-xl rounded-xl py-4 px-6 hover-lift border border-glass-border shadow-elegant">
               <Code2 className="h-6 w-6 text-primary mx-auto mb-2" />
@@ -107,12 +106,7 @@ export const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-glow-pulse">
-        <div className="w-6 h-10 border-2 border-primary rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-primary rounded-full mt-2 animate-glow-pulse"></div>
-        </div>
-      </div>
+      
     </section>
   );
 };
