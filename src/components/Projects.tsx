@@ -12,7 +12,7 @@ export const Projects = () => {
       category: "AI/ML Platform",
       stars: 0,
       forks: 0,
-      github: "https://github.com/tharanishwaran",
+      github: "https://github.com/tharanishwaran/CrimeGuard-AI-Prediction-Identification",
       demo: "#",
       featured: true
     },
@@ -23,19 +23,19 @@ export const Projects = () => {
       category: "E-Commerce",
       stars: 0,
       forks: 0,
-      github: "https://github.com/tharanishwaran",
+      github: "https://github.com/Tharanishwaran/ShopHub-E-Commerce-Platform",
       demo: "#"
     },
-    {
-      title: "AutoParts E-Commerce Platform",
-      description: "Full-featured e-commerce platform for automobile spare parts with advanced search, inventory management, and secure checkout. Real-time stock updates and order tracking.",
-      tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-      category: "E-Commerce",
-      stars: 0,
-      forks: 0,
-      github: "https://github.com/tharanishwaran",
-      demo: "#"
-    },
+    // {
+    //   title: "AutoParts E-Commerce Platform",
+    //   description: "Full-featured e-commerce platform for automobile spare parts with advanced search, inventory management, and secure checkout. Real-time stock updates and order tracking.",
+    //   tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    //   category: "E-Commerce",
+    //   stars: 0,
+    //   forks: 0,
+    //   github: "https://github.com/tharanishwaran",
+    //   demo: "#"
+    // },
     {
       title: "Open Source Contributions",
       description: "Active contributor to VMware Spring Framework, Layer5 cloud native platform, and CNCF projects including Meshery and OpenTelemetry.",
